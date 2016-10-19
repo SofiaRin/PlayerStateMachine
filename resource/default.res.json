@@ -1,0 +1,70 @@
+{
+	"groups": [
+		{
+			"keys": "egret_icon_png,description_json,Gamebg_jpg,move4_png,move3_png,move2_png,move1_png,idel4_png,idel3_png,idel2_png,idel1_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/Gamebg.jpg",
+			"type": "image",
+			"name": "Gamebg_jpg"
+		},
+		{
+			"url": "assets/idel4.png",
+			"type": "image",
+			"name": "idel4_png"
+		},
+		{
+			"url": "assets/idel2.png",
+			"type": "image",
+			"name": "idel2_png"
+		},
+		{
+			"url": "assets/idel3.png",
+			"type": "image",
+			"name": "idel3_png"
+		},
+		{
+			"url": "assets/idel1.png",
+			"type": "image",
+			"name": "idel1_png"
+		},
+		{
+			"url": "assets/move1.png",
+			"type": "image",
+			"name": "move1_png"
+		},
+		{
+			"url": "assets/move3.png",
+			"type": "image",
+			"name": "move3_png"
+		},
+		{
+			"url": "assets/move4.png",
+			"type": "image",
+			"name": "move4_png"
+		},
+		{
+			"url": "assets/move2.png",
+			"type": "image",
+			"name": "move2_png"
+		}
+	]
+}
