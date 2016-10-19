@@ -53,8 +53,7 @@ class Player extends egret.DisplayObjectContainer {
     PState: PlayerState;
     posX: number;
     posY: number;
-    idle: boolean;
-    walk: boolean;
+
 
     idState: idleState;
     moState: MoveState;
@@ -67,33 +66,12 @@ class Player extends egret.DisplayObjectContainer {
 
         this.wall.height = 93;
         this.wall.width = 60;
-        this.idle = true;
-        this.walk = false;
+ 
 
         this.idState = new idleState();
         this.moState = new MoveState();
 
-        /*
 
-        this._move1 = this.createBitmapByName("move1_png");
-        this._move2 = this.createBitmapByName("move2_png");
-        this._move3 = this.createBitmapByName("move3_png");
-        this._move4 = this.createBitmapByName("move4_png");
-
-        this._idel1 = this.createBitmapByName("idel1_png");
-        this._idel2 = this.createBitmapByName("idel2_png");
-        this._idel3 = this.createBitmapByName("idel3_png");
-        this._idel4 = this.createBitmapByName("idel4_png");
-
-        this.addChild(this._idel2);
-        this.addChild(this._idel3);
-        this.addChild(this._idel4);
-
-        this.addChild(this._move1);
-        this.addChild(this._move2);
-        this.addChild(this._move3);
-        this.addChild(this._move4);
-*/
 
     }
 
